@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a21eae2b-bd62-4afb-8eee-8815676d7245">
+  <producedTypes>
+    <objectType typeId="c04a07a3-f5eb-420f-95e3-59f0db6c1331" valueTypeId="29a4f5db-0b18-4d2e-afee-f55b52d22b93"/>
+    <refType typeId="44c91641-7546-4d4c-bd20-5f893e863715" valueTypeId="06ed6aa9-8565-44cb-ad02-0ccfde538746"/>
+    <selectionType typeId="0097aafe-67de-48eb-b2a0-73d9a3a3267c" valueTypeId="a9bfb49e-fd81-4960-b7d7-3759c683a86a"/>
+    <listType typeId="3fa77946-a2e4-4d75-81ab-f5206319416c" valueTypeId="e335a89b-e66f-422b-a1ec-41c4b78818dd"/>
+    <managerType typeId="0fe3fe03-4b97-4da1-a1c3-f164601d6995" valueTypeId="19d01f1e-1c1b-43d0-99e3-5cdcbc2a2d1f"/>
+  </producedTypes>
+  <name>ПоступлениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5afa26aa-64ed-4ae4-9d85-0438892ea3fb">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa327c80-7598-4c94-8258-6c1af7ca5c61">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
