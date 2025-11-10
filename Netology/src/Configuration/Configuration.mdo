@@ -63,6 +63,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <dataProcessors>DataProcessor.ПроверкаДлительностиСеанса</dataProcessors>
 </mdclass:Configuration>
