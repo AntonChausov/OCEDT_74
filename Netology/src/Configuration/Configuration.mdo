@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66510692-b13d-48cd-9bc1-41d00ef3d9cc">
+  <name>УправлениеITФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление IT фирмой</value>
+  </synonym>
+  <comment>Учебная база</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8ef4fd4b-a4d3-43a4-be40-4f0415bbf2ed"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5d81bc2a-2c26-4071-9c73-d119a074eb5b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b67d60ad-1204-4f40-9d06-b01bdea27287"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="73b3a6e8-92ea-414f-9260-1a467f8c6f22"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4bad12aa-0d51-4a06-8b4b-33136b51d4a9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="43ce6db3-203b-4718-bb23-0e4945a5a1c4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1354645f-6c03-44e0-8d5d-e77d64c7e8ec"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Управление IT фирмой</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Конфигурация представляет решение, позволяющее осуществлять управление IT фирмой.</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Разработал Смирнов М.П.</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="0d955ee9-3269-439c-a444-18484c554af3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <sessionParameters>SessionParameter.ВремяНачалаСеанса</sessionParameters>
+  <commonModules>CommonModule.СеансыСервер</commonModules>
+  <commonModules>CommonModule.СеансыВызовСервера</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗарплаты</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <constants>Constant.ВестиРасчетЗарплаты</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <dataProcessors>DataProcessor.ПроверкаДлительностиСеанса</dataProcessors>
+</mdclass:Configuration>

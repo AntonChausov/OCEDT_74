@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bfda6d0-c942-4f96-87f5-7c2c535fe053">
+  <producedTypes>
+    <refType typeId="79a1f33c-6922-4042-8e27-902f9ece0065" valueTypeId="1f334925-efa8-4c14-8f86-303d947b539c"/>
+    <listType typeId="af0cf11b-8c91-4100-8f11-2a74409fc7a2" valueTypeId="bbfa2acb-c222-46b6-be8c-0ec581cc1dbd"/>
+    <managerType typeId="76a67673-dedc-4311-b08b-3851803f1b16" valueTypeId="3442ccd1-2f39-4e71-93e4-24e2bb212293"/>
+  </producedTypes>
+  <name>ЮридическоеФизическоеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юридическое физическое лицо</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1996f661-b210-4689-8372-363d1b7775f0">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab4d521c-d50e-43f1-b6e1-badd2cb43b93">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
